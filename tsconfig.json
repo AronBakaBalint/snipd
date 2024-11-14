@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",                   // Choose the ECMAScript target version
+    "module": "commonjs",               // CommonJS for Node.js compatibility
+    "declaration": true,                // Generate .d.ts declaration files
+    "outDir": "./lib",                 // Output directory for compiled code
+    "strict": true                      // Enable all strict type-checking options
+  },
+  "include": ["src"],                   // Directory for TypeScript files
+  "exclude": ["node_modules", "lib"]   // Exclude unnecessary directories
+}
